@@ -36,4 +36,7 @@ public:
 				REAR = REAR + 1;
 		}
 	}
+	void remove() {
+		//apaakah antrian kosong
+	}
 };
