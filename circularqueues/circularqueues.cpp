@@ -38,5 +38,9 @@ public:
 	}
 	void remove() {
 		//apaakah antrian kosong
+		if (FRONT == -1) {
+			cout << "Queue underflow\n";
+			return;
+		}
 	}
 };
