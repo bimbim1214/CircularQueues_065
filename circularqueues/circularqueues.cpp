@@ -61,5 +61,10 @@ public:
 		int FRONT_position = FRONT;
 		int REAR_pisition = REAR;
 
+		//cek apakah antrian ksosong
+		if (FRONT == -1) {
+			cout << "Queue is empty\n";
+			return;
+		}
 	}
 };
