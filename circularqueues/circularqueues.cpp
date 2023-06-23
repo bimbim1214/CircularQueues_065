@@ -45,6 +45,9 @@ public:
 		cout << "\n the element deleted from the queue is: " << queue_array[FRONT] << "\n";
 
 		//cek jika antrian hanya di miliki satu element
-
+		if (FRONT == REAR) {
+			FRONT = -1;
+			REAR = -1;
+		}
 	}
 };
